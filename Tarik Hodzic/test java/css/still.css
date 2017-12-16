@@ -1,0 +1,143 @@
+*{
+
+    box-sizing: border-box;
+
+}
+body{
+     background-color: #6eaace;
+}
+.container{
+    width: 100%;
+    text-align: center;
+   
+}
+.buttonContainer{
+    
+    display: inline-block;
+    margin-bottom: 100px;
+    width: 50%;
+    text-align: center;
+    margin-left: 30px;
+}
+.buttonContainer div{
+display: inline-block;
+    float: left;
+
+    
+}
+.button {
+    font-size: 13px;
+    background-color: #4B4545;
+    color: white;
+    padding: 15px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 18px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 9px #999;
+    float: left; 
+    
+}
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#one{
+    text-align: center;
+    margin: auto;
+   width: 24%;
+   background-color:#999;
+    border-style: dotted;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 50px;
+    
+    
+    
+}
+#one table td:nth-child(odd){
+    width: 80px;
+    text-align: left;
+}
+#one table tr{
+    height: 40px;
+}
+#addButton{
+    width: 150px;
+    height: 30px;
+    background-color: lightgray;
+    margin-left: 29px;
+    margin-top: 20px;
+}
+
+#two{
+     text-align: center;
+    margin: auto;
+   width: 24%;
+   background-color:#999;
+    border-style: dotted;
+    height: 300px;
+ 
+   
+}
+#three{
+     text-align: center;
+    margin: auto;
+   width: 24%;
+   background-color:#999;
+    border-style: dotted;
+    height: 100px;
+    padding-top: 20px;
+    padding-right: 90px;
+}
+#edit{
+    width: 70px;
+    height: 23px;
+    margin-top: 40px;
+    margin-left: 240px;
+}
+#delete{
+    margin-top: 0px;
+    margin-left: 220px;
+}
+#two table td:nth-child(odd){
+    width: 80px;
+    text-align: left;
+}
+#two table tr{
+    height: 40px;
+
+}
+#two table {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#four{
+     text-align: center;
+    margin: auto;
+   width: 24%;
+   background-color:#999;
+    border-style: dotted;
+    height: 300px;
+    padding-top: 20px;
+    padding-right: 90px;
+    
+}
+#search{
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+.hide{
+
+  display: none;
+}
+
+.error{
+
+  border: 1px solid red !important;
+}

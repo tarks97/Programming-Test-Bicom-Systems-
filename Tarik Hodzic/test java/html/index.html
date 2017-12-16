@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+  <meta charset="utf-8">    
+    <title>test admin</title>
+    <link rel="stylesheet" href="../css/still.css">
+    
+    
+    </head>
+
+
+
+
+<body>
+    
+    <div class="container">
+    <div class="buttonContainer">
+     <div class="first">
+        
+         <button class="button" onclick="onclickDiv('one')">Add User</button>
+        
+        
+        
+        </div><!--end of first-->
+        
+         <div class="second">
+        
+         <button class="button" onclick="onclickDiv('two')">Edit User</button>
+        
+        
+        
+        </div><!--end of second-->
+        <div class="third">
+        
+         <button class="button" onclick="onclickDiv('three')">Delete User</button>
+        
+        
+        
+        </div><!--end of third-->
+        <div class="fourth">
+        
+         <button class="button" onclick="onclickDiv('four')">Search User</button>
+        
+        
+        
+        </div><!--end of fourth-->
+        
+     </div><!--end of buttonContainer-->
+
+        
+        
+             
+             
+             
+             
+        <!--  ----------------------end of button div------------------------- -->
+             
+             
+             
+             
+                 <div class="div" id="one">
+        
+     
+
+                    <table>
+        
+        <tr> 
+        <td> Full name:</td>
+        <td><input type="text" name="Full name " value="" class="firstInput"></td>
+        </tr>
+                        
+        <tr> 
+        <td> Username:</td>
+        <td><input type="text" name="Username " value="" class="firstInput"></td>
+        </tr>
+                        
+        <tr> 
+        <td> E-mail:</td>
+        <td><input type="text" name="Email " value="" class="firstInput"></td>
+        </tr>             
+        
+        <tr> 
+        <td> Password:</td>
+        <td><input type="Password" name="Password " value="" class="firstInput"></td>
+        </tr>                
+                     </table>
+
+              <a href="#"><input id="addButton" type="submit" value="Add User" onclick="return onClickValidation('one')"></a>
+             
+        </div><!--end of one-->
+        
+         <div class="div" id="two">
+          <input type="text" name="Username " value="" id="searchButton">     
+             
+        <input id="search"  type="submit" value="Search" onclick=" return validateSearchButton()">
+             
+               <table>
+        
+        <tr> 
+        <td> Full name:</td>
+        <td><input type="hidden" name="Full name " value="" class="secondInput"></td>
+        </tr>
+                        
+        <tr> 
+        <td> Username:</td>
+        <td><input type="hidden" name="Username " value="" class="secondInput"></td>
+        </tr>
+                        
+        <tr> 
+        <td> E-mail:</td>
+        <td><input type="hidden" name="Email " value="" class="secondInput"></td>
+        </tr>             
+        
+        <tr> 
+        <td> Password:</td>
+        <td><input type="hidden" name="Password " value="" class="secondInput"></td>
+        </tr>                
+                     </table>
+             <input id="edit"  type="hidden" name="Edit" value="Edit" onclick="return onClickValidation('two')">
+             
+ 
+    
+        
+        
+        </div><!--end of two-->
+        <div class="div" id="three">
+        
+        
+         <input type="text" id="deleteInput" name="Username " value="" class="thirdInput">
+             
+             <input id="delete"  type="submit" value="Delete" onclick="return onClickValidation('three')">
+             
+        
+        
+        
+        </div><!--end of three-->
+        <div class="div" id="four">
+        
+         <input type="text" id="lookup" name="Username " value="" class="fourthInput">     
+             
+        <input  type="submit"  onclick="return onClickValidation('four')">
+             
+         
+        <table id="searchTable">
+            <tr>
+            <td>Full name:</td>
+            </tr>
+            <tr>
+            <td>Username:</td>
+            </tr>
+            <tr>
+            <td>E-Mail:</td>
+            </tr>
+        </table>
+        
+        
+        </div><!--end of four-->
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    </div>  <!--end of container-->
+    
+    
+    
+    </body>
+        <script type="text/javascript" src="../JavaScript/Script.js"></script>
+        <script type="text/javascript" src="../JavaScript/localStorage.js"></script>
+
+</html>
