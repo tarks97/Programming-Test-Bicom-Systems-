@@ -15,17 +15,18 @@ body{
     
     display: inline-block;
     margin-bottom: 100px;
-    width: 50%;
+    width: 70%;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 135px;
 }
 .buttonContainer div{
-display: inline-block;
-    float: left;
+  display: inline-block;
+  float: left;
 
     
 }
 .button {
+    
     font-size: 13px;
     background-color: #4B4545;
     color: white;
@@ -47,18 +48,31 @@ display: inline-block;
   transform: translateY(4px);
 }
 #one{
-    text-align: center;
-    margin: auto;
-   width: 24%;
-   background-color:#999;
-    border-style: dotted;
-    height: 300px;
-    padding-top: 40px;
-    padding-left: 50px;
-    
-    
-    
+  text-align: center;
+  margin: auto;
+  width: 24%;
+  background-color:#999;
+  border-style: dotted;
+  height: 300px;
+  padding-top: 40px;
+  padding-left: 50px;   
 }
+#one table{
+
+  margin-left: 27%;
+}
+#searchTable{
+
+  margin: 7% auto;
+  width: 25%;
+  height: 170px;
+}
+
+#searchTable tr td{
+
+  margin: 55px !important;
+}
+
 #one table td:nth-child(odd){
     width: 80px;
     text-align: left;
@@ -72,6 +86,8 @@ display: inline-block;
     background-color: lightgray;
     margin-left: 29px;
     margin-top: 20px;
+    margin-bottom: 30%;
+    float: center;
 }
 
 #two{
@@ -117,15 +133,15 @@ display: inline-block;
     margin-top: 10px;
 }
 #four{
-     text-align: center;
-    margin: auto;
-   width: 24%;
-   background-color:#999;
-    border-style: dotted;
-    height: 300px;
-    padding-top: 20px;
-    padding-right: 90px;
-    
+  
+  text-align: center;
+  margin: auto;
+  width: 24%;
+  background-color:#999;
+  border-style: dotted;
+  height: 300px;
+  padding-top: 20px;
+  padding-right: 90px;
 }
 #search{
     margin-right: 90px;
@@ -140,4 +156,15 @@ display: inline-block;
 .error{
 
   border: 1px solid red !important;
+}
+
+.div{
+
+  width: 60% !important;
+  text-align: center !important;
+}
+
+.trtabela{
+
+  margin: 10px;
 }
